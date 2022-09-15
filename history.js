@@ -9,8 +9,7 @@ function addHistory(questionText, timeTaken, errorCount) {
   <div>
   <p>You took: <span class="bold">${timeTaken}</span> seconds</p>
   <p>You made <span class="bold red">${errorCount}</span> mistakes</p>
-  </div>
-  `;
+  </div>`;
 
   histories.appendChild(newRow);
 
