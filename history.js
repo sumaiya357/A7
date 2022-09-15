@@ -28,6 +28,7 @@ function displayHistory() {
   previousTests.forEach((test) => {
     const newRow = document.createElement("div");
     newRow.classList.add("card");
+    //newRow.classList.add("d-flex");
 
     newRow.innerHTML = `
   <h3>${test.questionText}</h3>
